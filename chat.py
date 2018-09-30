@@ -9,8 +9,8 @@ PORT2 = 4001
 
 
 def main():
-	new_server = server.Server()
-	new_client = client.Client()
+	new_server = server.Server(HOST1, PORT1)
+	new_client = client.Client(HOST2, PORT2)
 	new_server.run()
 
 
